@@ -3,9 +3,11 @@ public class Main {
 
 
     {
+        //intro
         String name = "ersin";
-
+        System.out.print(name);
 
         System.out.println(name) ;
+
     }
 }
