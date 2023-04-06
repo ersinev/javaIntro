@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         bodyIndex();
+        taxCalculator();
     }
     public static void bodyIndex(){
         int weight = 60;
@@ -8,5 +9,12 @@ public class Main {
         double Index = weight/(height*height);
         System.out.println(Index);
 
+    }
+
+    public static void taxCalculator(){
+        double salaryBrut = 2500;
+        double tax = 18;
+        double salaryNet = salaryBrut-(salaryBrut*tax)/100;
+        System.out.println(salaryNet);
     }
 }
