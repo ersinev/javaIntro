@@ -2,6 +2,11 @@ public class Main {
     public static void main(String[] args) {
         bodyIndex();
         taxCalculator();
+        getName("John");
+    }
+
+    public static void getName(String name){
+        System.out.println("Welcome " + name);
     }
     public static void bodyIndex(){
         int weight = 60;
