@@ -4,6 +4,7 @@ public class Main {
         taxCalculator();
         getName("John",20);
         int myNum1 = plusMethodInt(8, 5);
+        double myNum2 = plusMethodDouble(4.3, 6.26);
     }
 
     public static void getName(String name, int age){
@@ -24,6 +25,9 @@ public class Main {
         System.out.println(salaryNet);
     }
     static int plusMethodInt(int x, int y) {
+        return x + y;
+    }
+    static double plusMethodDouble(double x, double y) {
         return x + y;
     }
 
