@@ -3,6 +3,7 @@ public class Main {
         bodyIndex();
         taxCalculator();
         getName("John",20);
+        int myNum1 = plusMethodInt(8, 5);
     }
 
     public static void getName(String name, int age){
@@ -22,4 +23,9 @@ public class Main {
         double salaryNet = salaryBrut-(salaryBrut*tax)/100;
         System.out.println(salaryNet);
     }
+    static int plusMethodInt(int x, int y) {
+        return x + y;
+    }
+
+
 }
