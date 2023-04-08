@@ -5,6 +5,7 @@ public class Main {
         getName("John",20);
         int myNum1 = plusMethodInt(8, 5);
         double myNum2 = plusMethodDouble(4.3, 6.26);
+        double myNum3 = plusMethodDouble(5.3, 6.66);
     }
 
     public static void getName(String name, int age){
