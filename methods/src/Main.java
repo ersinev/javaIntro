@@ -24,7 +24,7 @@ public class Main {
         double salaryBrut = 2500;
         double tax = 18;
         double salaryNet = salaryBrut-(salaryBrut*tax)/100;
-        System.out.println(salaryNet);
+//        System.out.println(salaryNet);
     }
     static int plusMethodInt(int x, int y) {
         return x + y;
