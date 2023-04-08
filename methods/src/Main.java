@@ -27,9 +27,10 @@ public class Main {
     static int plusMethodInt(int x, int y) {
         return x + y;
     }
-//    static double plusMethodDouble(double x, double y) {
-//        return x + y;
-//    }
+    static double plusMethodDouble(double x, double y) {
+        return x + y;
+    }
+
 
 
 }
