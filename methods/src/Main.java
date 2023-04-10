@@ -21,6 +21,7 @@ public class Main {
     }
 
     public static void taxCalculator(){
+        //add a readline
         double salaryBrut = 2500;
         double tax = 18;
         double salaryNet = salaryBrut-(salaryBrut*tax)/100;
